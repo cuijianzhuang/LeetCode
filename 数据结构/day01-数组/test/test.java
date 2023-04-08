@@ -21,4 +21,14 @@ public class test {
         System.out.println(c);
     }
 
+    @Test
+    public void maxSubArrayTest(){
+        //nums = [-2,1,-3,4,-1,2,1,-5,4]
+        int[] nums ={-2,1,-3,4,-1,2,1,-5,4};
+        maxSubArray maxSubArray = new maxSubArray();
+        int i = maxSubArray.maxSubArray(nums);
+        System.out.println(i);
+    }
+
+
 }
